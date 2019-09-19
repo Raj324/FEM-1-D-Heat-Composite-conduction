@@ -182,7 +182,7 @@ int main (void)
        for (c=0 ; c<=e; c++){
      	for (d =0; d<1;d++){
  		
- 		printf("Heat flux at node %d = %.3f\t",c+1, area*q[c][d]);
+ 		printf("Thermal forces at node %d = %.3f\t",c+1, area*q[c][d]);
  }
   printf("\n");
   }
